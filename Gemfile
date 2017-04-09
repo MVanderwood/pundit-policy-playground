@@ -35,8 +35,12 @@ gem 'jbuilder', '~> 2.5'
 # Authorization
 gem 'pundit'
 
+# Authentication
+gem 'devise', '>= 4.2.0'
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
+  gem 'pry-rails'
   gem 'byebug', platform: :mri
 end
 
